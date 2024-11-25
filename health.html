@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVIVE</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Revive</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="mindfulness.html">Mindfulness</a></li>
+                <li><a href="health.html">Health</a></li>
+                <li><a href="qna.html">QnA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<header class="mindfulness-header">
+        <p>Embrace your health journey through mindful nutrition, balanced workouts, and personal insights</p>
+    </header>
+
+
+    <div class="diet-section">
+        <div class="diet-content">
+            <h2 class="diet-title">Personalized Meal Plans</h2>
+            
+            <h3 class="feature-title">Meal Plans Tailored to Your Body Type and Fitness Goals</h3>
+            <p class="feature-description">
+                Every woman’s body is different, and so are their dietary needs. Tailoring 
+                your meal plan based on your body type can help you reach your fitness goals 
+                more effectively. Whether you’re aiming to lose weight, gain muscle, or maintain 
+                a balanced lifestyle, having a personalized diet is key.
+            </p>
+            
+            <h4 class="body-type-title">Body Types and Recommended Meal Plans:</h4>
+            
+            <ul class="body-types">
+                <li><strong>Ectomorph:</strong> Ectomorphs tend to have a fast metabolism and a lean body. 
+                A high-carb, moderate-protein, and moderate-fat diet is ideal to support energy levels 
+                and muscle gain. Think whole grains, lean meats, and healthy fats like avocado and olive oil.</li>
+                
+                <li><strong>Mesomorph:</strong> With a naturally athletic build, mesomorphs benefit from a balanced 
+                intake of carbs, proteins, and fats. This body type thrives on a variety of foods, so aim for a 
+                well-rounded diet with lean proteins, vegetables, and moderate healthy fats.</li>
+                
+                <li><strong>Endomorph:</strong> Endomorphs have a slower metabolism and are more prone to fat 
+                storage. A lower-carb, high-protein, and moderate-fat diet works best for burning fat while 
+                maintaining muscle. Focus on lean proteins like chicken and fish, along with plenty of vegetables.</li>
+            </ul>
+            
+            <p class="interactive-suggestion">
+                <strong>Want a Customized Meal Plan? Exciting news! A customized meal plan feature is coming soon to help you tailor your nutrition to your specific body type and fitness goals. Stay tuned!</strong>
+            </p>
+        </div>
+        
+        <div class="diet-image">
+            <img src="img/health.jpeg" alt="Healthy food image" />
+        </div>
+    </div>
+    
+
+<div class="container6">  
+    <div class="calculator-container">
+        <h2 class="calculator-title">BMI Calculator</h2>
+        <div class="calculator">
+            <label for="weight" class="label">Weight (kg):</label>
+            <input type="number" id="weight" class="input" placeholder="Enter weight"><br><br>
+            
+            <label for="height" class="label">Height (cm):</label>
+            <input type="number" id="height" class="input" placeholder="Enter height"><br><br>
+            
+            <button onclick="calculateBMI()" class="button">Calculate BMI</button>
+            <p id="bmiResult" class="result"></p>
+        </div>
+    </div>
+
+    <div class="tracker-container">
+        <h2 class="tracker-title">Menstrual Cycle Tracker</h2>
+        <div class="cycle-tracker">
+            <label for="cycleLength" class="label">Cycle Length (days):</label>
+            <input type="number" id="cycleLength" class="input" placeholder="Enter cycle length"><br><br>
+            
+            <label for="lastPeriod" class="label">Last Period Date:</label>
+            <input type="date" id="lastPeriod" class="input"><br><br>
+
+            <button onclick="trackCycle()" class="button">Track Cycle</button>
+            <p id="cycleResult" class="result"></p>
+        </div>
+    </div>
+</div>
+    
+<div class="workout-container">
+    <div class="workout-content">
+        <h2 class="workout-title">Personalized Workout Routines</h2>
+        <p class="workout-description">
+            <strong>Workouts Tailored to Your Body Type and Goals</strong>
+        </p>
+        <ul class="workout-list">
+            <li class="workout-item"><strong class="workout-head">Ectomorphs:</strong> Focus on strength training with heavy weights and fewer reps to build muscle. Limit cardio to preserve energy for lifting.</li>
+            <li class="workout-item"><strong class="workout-head">Mesomorphs:</strong> Balance strength training and cardio. Combine moderate weights with high reps and add HIIT for fat burning and muscle maintenance.</li>
+            <li class="workout-item"><strong class="workout-head">Endomorphs:</strong> Prioritize full-body workouts with a mix of strength training and cardio to boost metabolism and burn fat effectively.</li>
+        </ul>
+        <p class="custom-workout">Custom Workout Plans Coming Soon!</p>
+    </div>
+    <div>
+        <img src="img/workout.jpeg" alt="Workout Image" class="image-class" />
+    </div>
+</div>
+
+
+    <script src="js/scripts.js"></script>
+    <footer>
+        <p>&copy; 2024 Revive. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+        
+</body>
+</html>
